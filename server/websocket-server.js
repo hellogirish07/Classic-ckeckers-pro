@@ -1,7 +1,8 @@
 import { WebSocketServer } from 'ws';
 import { BLUE, RED, createInitialBoard, validateMoveForPlayer, getWinner } from '../src/lib/checkersCore.js';
 
-const PORT = Number(process.env.WS_PORT || 8080);
+// const PORT = Number(process.env.WS_PORT || 8080);
+const PORT = Number(process.env.PORT || process.env.WS_PORT || 8080);
 const rooms = new Map();
 
 const createRoomCode = () => {
