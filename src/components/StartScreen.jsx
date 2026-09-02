@@ -78,9 +78,9 @@ const StartScreen = ({
 
       <div className="flex flex-col items-center justify-center absolute bottom-0 mb-4">
         <div className="text-neutral-400 text-sm">
-          v{import.meta.env.PACKAGE_VERSION ?? "2.0.0"}
+          v{import.meta.env.PACKAGE_VERSION ?? "2.0.3"}
         </div>
-        <div className="text-neutral-400 text-sm">made by @hellogirish07</div>
+        <div className="text-neutral-400 text-sm">made by <a href="https://github.com/hellogirish07" target="_blank" rel="noopener noreferrer" className=" hover:underline">@hellogirish07</a> </div>
       </div>
     </div>
   );
