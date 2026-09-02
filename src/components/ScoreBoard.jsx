@@ -15,7 +15,7 @@ const ScoreBoard = ({ turn, score, gameMode, RED, BLUE, playerColor, cpuColor, l
   const onlineOpponentName = opponentName || defaultOpponentLabel;
 
   return (
-    <div className="grid grid-cols-2 gap-4 mb-4 z-50">
+    <div className="grid grid-cols-2 gap-4 mb-4">
       <div
         className={`p-4 rounded-2xl flex items-center justify-between transition-all ${
           turn === BLUE ? 'ring-4 ring-white' : 'bg-neutral-800 glass-pennal opacity-60'

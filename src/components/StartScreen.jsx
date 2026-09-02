@@ -38,7 +38,7 @@ const StartScreen = ({
           </button>
           <button
             onClick={onStartPvP}
-            className="flex-1 flex glass-pennal items-center justify-center p-5 bg-neutral-800 rounded-2xl font-bold transition-all group active:scale-95"
+            className="flex-1 flex glass-pennal items-center justify-center p-5 rounded-2xl font-bold transition-all group active:scale-95"
           >
             <div className="flex flex-col items-center justify-center gap-3">
               <Users size={40} /> <span>Pass and Play</span>
@@ -60,7 +60,7 @@ const StartScreen = ({
         <div className="flex flex-row gap-2 w-full max-w-xs">
           <button
             onClick={onShowRules}
-            className="flex flex-1 glass-pennal items-center justify-center gap-3 p-5 bg-neutral-800 rounded-2xl font-bold transition-all group active:scale-95 mt-2 border-2 border-neutral-700"
+            className="flex flex-1 glass-pennal items-center justify-center gap-3 p-5 rounded-2xl font-bold transition-all group active:scale-95 mt-2 border-2 border-neutral-700"
           >
             <BookOpen size={25} />
             <span>Rules</span>
@@ -68,7 +68,7 @@ const StartScreen = ({
 
           <button
             onClick={onShowSettings}
-            className="flex flex-2 glass-pennal items-center justify-center gap-3 p-5 bg-neutral-800 rounded-2xl font-bold transition-all group active:scale-95 mt-2 border-2 border-neutral-700"
+            className="flex flex-2 glass-pennal items-center justify-center gap-3 p-5 rounded-2xl font-bold transition-all group active:scale-95 mt-2 border-2 border-neutral-700"
           >
             <Settings size={25} />
             {/* <span>Settings</span> */}
