@@ -29,7 +29,7 @@ const StartScreen = ({
         <div className="flex flex-row gap-2 w-full max-w-xs">
           <button
             onClick={onStartPvC}
-            className="flex-1 flex glass-pennal items-center justify-center p-5 bg-neutral-800 rounded-2xl font-bold transition-all group active:scale-95"
+            className="flex-1 flex glass-pennal items-center justify-center p-5 rounded-2xl font-bold transition-all group active:scale-95"
           >
             <div className="flex flex-col items-center justify-center gap-3">
               <Cpu size={40} /> <span>vs Computer</span>
