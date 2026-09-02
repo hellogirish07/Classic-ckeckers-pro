@@ -87,7 +87,7 @@ const HelpPanel = ({ onClose }) => {
           </div>
         )}
 
-        <div className="mt-6 border-t border-neutral-800 pt-4">
+        {/* <div className="mt-6 border-t border-neutral-800 pt-4">
           <h4 className="font-bold text-white mb-2">Other ways to contact</h4>
           <ul className="text-sm text-neutral-300 space-y-2">
             <li>Email: <a className="text-blue-400" href="mailto:support@example.com">support@example.com</a></li>
@@ -95,7 +95,7 @@ const HelpPanel = ({ onClose }) => {
             <li>Report a bug: <a className="text-blue-400" href="https://github.com/your-repo/issues" target="_blank" rel="noreferrer">Open an issue on GitHub</a></li>
           </ul>
           <p className="text-sm text-neutral-500 mt-3">Your support means a lot to us!</p>
-        </div>
+        </div>  */}
       </div>
     </div>
   );

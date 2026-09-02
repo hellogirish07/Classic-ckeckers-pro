@@ -8,6 +8,7 @@ import CpuThinkingBadge from './components/CpuThinkingBadge';
 import WinnerOverlay from './components/WinnerOverlay';
 import Rules from './components/Rules';
 import SettingsPanel from './components/Settings';
+import './App.css';
 import { BLUE, RED, createInitialBoard, getValidMoves, getWinner, validateMoveForPlayer } from './lib/checkersCore';
 
 const App = () => {
