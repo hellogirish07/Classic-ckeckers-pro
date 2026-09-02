@@ -22,7 +22,7 @@ const InviteFriendsScreen = ({
     return (
       // Create Room
       <div className="min-h-screen bg-[#0f172a] bg-[radial-gradient(circle_at_20%_20%,rgba(37,99,235,0.22),transparent_35%),radial-gradient(circle_at_80%_80%,rgba(168,85,247,0.18),transparent_35%),radial-gradient(circle_at_50%_100%,rgba(245,158,11,0.08),transparent_30%)] text-white flex items-center justify-center p-6">
-        <div className="w-full max-w-md glass-pennal bg-neutral-800/90 border border-neutral-700 rounded-3xl p-6 shadow-2xl">
+        <div className="w-full max-w-md glass-pennal border border-neutral-700 rounded-3xl p-6 shadow-2xl">
           <button
             onClick={onBack}
             className="flex items-center gap-2 text-neutral-300 hover:text-white mb-5 transition"
@@ -71,7 +71,7 @@ const InviteFriendsScreen = ({
     return (
       // Join Room
       <div className="min-h-screen bg-[#0f172a] bg-[radial-gradient(circle_at_20%_20%,rgba(37,99,235,0.22),transparent_35%),radial-gradient(circle_at_80%_80%,rgba(168,85,247,0.18),transparent_35%),radial-gradient(circle_at_50%_100%,rgba(245,158,11,0.08),transparent_30%)] text-white flex items-center justify-center p-6">
-        <div className="w-full max-w-md glass-pennal bg-neutral-800/90  border border-neutral-700 rounded-3xl p-6 shadow-2xl">
+        <div className="w-full max-w-md glass-pennal border border-neutral-700 rounded-3xl p-6 shadow-2xl">
           <button
             onClick={onBack}
             className="flex items-center gap-2 text-neutral-300 hover:text-white mb-5 transition"
@@ -117,7 +117,7 @@ const InviteFriendsScreen = ({
 
   return (
     <div className="min-h-screen bg-[#0f172a] bg-[radial-gradient(circle_at_20%_20%,rgba(37,99,235,0.22),transparent_35%),radial-gradient(circle_at_80%_80%,rgba(168,85,247,0.18),transparent_35%),radial-gradient(circle_at_50%_100%,rgba(245,158,11,0.08),transparent_30%)] text-white flex items-center justify-center p-6">
-      <div className="w-full max-w-md bg-neutral-800/90 glass-pennal border border-neutral-700 rounded-3xl p-6 shadow-2xl">
+      <div className="w-full max-w-md glass-pennal border border-neutral-700 rounded-3xl p-6 shadow-2xl">
         <button
           onClick={onBack}
           className="flex items-center gap-2 text-neutral-300 hover:text-white mb-5 transition"
@@ -160,7 +160,7 @@ const InviteFriendsScreen = ({
 
           <button
             onClick={() => onSelectJoin()}
-            className="w-full text-left glass-pennal bg-neutral-700 hover:bg-neutral-600 rounded-2xl p-5 font-bold transition-all"
+            className="w-full text-left glass-pennal rounded-2xl p-5 font-bold transition-all"
             disabled={!playerName || playerName.trim().length === 0}
           >
             <div>

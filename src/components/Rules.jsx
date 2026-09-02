@@ -4,7 +4,7 @@ import { X, BookOpen } from 'lucide-react';
 const Rules = ({ onClose }) => {
   return (
     <div className="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center p-4 z-50 overflow-y-auto">
-      <div className="bg-neutral-900 rounded-2xl max-w-3xl w-full p-8 text-white shadow-2xl border-2 border-neutral-700 max-h-[90vh] overflow-y-auto [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden max-h-[90vh]">
+      <div className="glass-pennal rounded-2xl max-w-3xl w-full p-8 text-white shadow-2xl border-2 border-neutral-700 max-h-[90vh] overflow-y-auto [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden max-h-[90vh]">
         <div className="flex items-center justify-between mb-6">
           <div className="flex items-center gap-3">
             <div className="w-12 h-12 bg-blue-600 rounded-xl flex items-center justify-center">

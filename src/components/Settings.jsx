@@ -7,7 +7,7 @@ const SettingsPanel = ({ onClose, playerColor, cpuColor, boardTheme, setPlayerCo
 
   return (
     <div className="fixed inset-0 bg-black/95 z-50 flex items-center justify-center p-4 backdrop-blur-xl">
-      <div className="bg-neutral-900  w-full max-w-xl rounded-2xl p-8 border border-neutral-800 shadow-2xl overflow-y-auto [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden max-h-[90vh]">
+      <div className="glass-pennal w-full max-w-xl rounded-2xl p-8 border border-neutral-800 shadow-2xl overflow-y-auto [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden max-h-[90vh]">
         <div className="flex justify-between items-center mb-8">
           <h2 className="text-2xl font-black flex items-center text-white gap-3">
             <Palette className="text-white" /> Settings
@@ -91,7 +91,7 @@ const SettingsPanel = ({ onClose, playerColor, cpuColor, boardTheme, setPlayerCo
             <div className="flex flex-col gap-3">
               <button
                 onClick={() => setShowHelp(true)}
-                className="w-full py-3 bg-neutral-800 hover:bg-neutral-700 rounded-2xl text-white font-bold"
+                className="w-full py-3 bg-neutral-800 border border-neutral-600 hover:bg-neutral-700 rounded-2xl text-white font-bold"
               >
                 Open Help & Report
               </button>
