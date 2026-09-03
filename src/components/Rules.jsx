@@ -4,7 +4,7 @@ import { X, BookOpen } from 'lucide-react';
 const Rules = ({ onClose }) => {
   return (
     <div className="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center p-4 z-50 overflow-y-auto">
-      <div className="glass-pennal rounded-2xl max-w-3xl w-full p-8 text-white shadow-2xl border-2 border-neutral-700 max-h-[90vh] overflow-y-auto [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden max-h-[90vh]">
+      <div className="glass-pennal rounded-2xl max-w-3xl w-full p-8 text-white shadow-2xl max-h-[90vh] overflow-y-auto [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden max-h-[90vh]">
         <div className="flex items-center justify-between mb-6">
           <div className="flex items-center gap-3">
             <div className="w-12 h-12 bg-blue-600 rounded-xl flex items-center justify-center">
@@ -89,6 +89,21 @@ const Rules = ({ onClose }) => {
               <li>If multiple captures are available, you can choose which one to take</li>
               <li>You must complete all possible jumps in a single turn</li>
               <li>Players alternate turns</li>
+            </ul>
+          </section>
+
+          {/* Multiplayer Rules */}
+          <section>
+            <h3 className="text-xl font-bold text-blue-400 mb-3">Multiplayer Rules</h3>
+            <ul className="list-disc list-inside space-y-2 ml-2">
+              <li>Both players must be connected to the internet before starting a multiplayer game</li>
+              <li>One player selects <strong className="text-white">Create Room</strong> and shares the six-character room code</li>
+              <li>Other player enter the six-character room code manually and select <strong className="text-white">Join Game</strong></li>
+              <li>Enter your name before creating or joining the room</li>
+              <li>The game starts automatically when both players are connected</li>
+              <li>Player 1 plays Blue and Player 2 plays Red</li>
+              <li>Players take turns, and all standard checkers rules still apply</li>
+              <li>If a player disconnects, the other player wins and the game ends</li>
             </ul>
           </section>
 
