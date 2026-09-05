@@ -87,6 +87,9 @@ const HelpPanel = ({ onClose }) => {
           </div>
         )}
 
+        <p className="text-sm text-neutral-400 mt-4">Classic Checkers Pro is currently under active development and testing. You may encounter bugs, unexpected behavior, or unfinished features.</p>
+        <p className="text-sm text-neutral-400 mt-4">Found something that doesn't work as expected? We'd love to hear from you. Use the Report a Problem option to help us improve the game.</p>
+
         {/* <div className="mt-6 border-t border-neutral-800 pt-4">
           <h4 className="font-bold text-white mb-2">Other ways to contact</h4>
           <ul className="text-sm text-neutral-300 space-y-2">

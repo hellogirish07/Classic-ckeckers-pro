@@ -97,7 +97,7 @@ const Rules = ({ onClose }) => {
             <h3 className="text-xl font-bold text-blue-400 mb-3">Multiplayer Rules</h3>
             <ul className="list-disc list-inside space-y-2 ml-2">
               <li>Both players must be connected to the internet before starting a multiplayer game</li>
-              <li>One player selects <strong className="text-white">Create Room</strong> and shares the six-character room code</li>
+              <li>One player selects <strong className="text-white">Create Room</strong> and shares the six-character room code (First connection may take a few seconds while the server wakes up.) </li>
               <li>Other player enter the six-character room code manually and select <strong className="text-white">Join Game</strong></li>
               <li>Enter your name before creating or joining the room</li>
               <li>The game starts automatically when both players are connected</li>

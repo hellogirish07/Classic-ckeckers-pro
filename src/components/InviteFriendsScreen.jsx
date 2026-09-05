@@ -62,6 +62,8 @@ const InviteFriendsScreen = ({
             </div>
             <p className="text-sm text-neutral-300">{statusMessage || 'Waiting for your friend to join...'}</p>
           </div>
+          
+          <p className="text-center text-neutral-300 mt-3">First connection may take a few seconds while the server wakes up.</p>
         </div>
       </div>
     );
